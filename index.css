@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 224, 224);
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 305px 305px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container1 {
+    padding: 1rem 2rem;
+    grid-column: span 2;
+    background-color: white;
+}
+
+h2 {
+    color:hsl(179, 62%, 43%);
+    padding-bottom: 1rem;
+}
+
+.one {
+    padding-bottom: 0.7rem;
+    color: hsl(71, 73%, 54%);
+}
+
+.container1 p {
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 0.2rem;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 305px 305px;
+    
+}
+
+.contain2 {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 1rem;
+}
+.contain1 {
+    background-color: hsl(178, 34%, 44%);
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.contain2 h4 {
+    padding: 17px 0;
+    /* margin-top: 16px; */
+}
+
+.contain1 h4 {
+    padding: 17px 0;
+}
+
+span {
+    font-size: xx-large;
+    color: white;
+}
+
+.contain1 p {
+    color: hsl(204, 43%, 93%);
+    font-size: small;
+    padding-bottom: 0.3rem;
+}
+
+button {
+    color: white;
+    width: 190px;
+    padding: 10px 20px;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 16px;
+}
+
+ul {
+    color: hsl(204, 43%, 93%);
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    /* margin-top: 50px; */
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media all and (max-width: 375px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
